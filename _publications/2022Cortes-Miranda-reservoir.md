@@ -6,7 +6,7 @@ excerpt: 'Freshwater ecosystems are among those most affected by human activity.
 date: 2022-06-01
 venue: 'Population Ecology'
 paperurl: 'https://esj-journals.onlinelibrary.wiley.com/doi/abs/10.1002/1438-390X.12118'
-citation: 'Cortes-Miranda, J., Véliz, D., Flores-Prado, L., Sallaberry, M., & Vega-Retter, C. (2022). "Genetic diversity and origin of a fish population recently colonizing a reservoir: The case of Basilichthys microlepidotus, central Chile." <i>Population Ecology</i>.  1–11.'
+citation: 'Cortes-Miranda, J., Véliz, D., Flores-Prado, L., Sallaberry, M., & Vega-Retter, C. (2022). &quot;Genetic diversity and origin of a fish population recently colonizing a reservoir: The case of Basilichthys microlepidotus, central Chile&quot;. <i>Population Ecology</i>.  1–11.'
 ---
 Freshwater ecosystems are among those most affected by human activity. Constructing artificial reservoirs can change freshwater biodiversity, thereby
 impacting genetic diversity (GD), which is crucial to population-level adaptation. The Maipo River basin, inhabited by the endemic silverside Basilichthys
