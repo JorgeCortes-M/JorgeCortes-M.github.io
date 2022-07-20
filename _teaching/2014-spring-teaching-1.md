@@ -1,5 +1,5 @@
 ---
-title: "Teaching experience 1"
+title: "Ecologia de poblaciones 2021"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2014-spring-teaching-1
