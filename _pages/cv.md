@@ -9,12 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+Educación
 ======
 * Ingeniero en Biotecnología Molecular, Universidad de Chile, 2020.
 * Ph. D (c) en Ciencias mención Ecología y Biología Evolutiva, Universidad de Chile, 2020 -
 
-Work experience
+Experiencia Laboral
 ======
 * Ayudante
   * Biología Molecular, Facultad de Ciencias, Universidad de Chile, 2017.
@@ -41,13 +41,13 @@ Habilidades
   * Python.
   * S (Lenguaje de R).
 
-Publications
+Publicaciones
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Congresos
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
