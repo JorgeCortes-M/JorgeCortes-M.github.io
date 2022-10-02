@@ -11,30 +11,35 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ingeniero en Biotecnología Molecular, Universidad de Chile, 2020.
+* Ph. D (c) en Ciencias mención Ecología y Biología Evolutiva, Universidad de Chile, 2020 -
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Ayudante
+  * Biología Molecular, Facultad de Ciencias, Universidad de Chile, 2017.
+  * Ecología de Poblaciones, Facultad de Ciencias, Univeridad de Chile, 2021.
+  * Ecología para Pedagogía en Educación media en Biología y Química, Facultad de Ciencias, Univeridad de Chile, 2021.
+  * Contaminación, Facultad de Ciencias, Univeridad de Chile, 2022.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Proyectos
+  * Asistente de investigación proyecto FONDECYT N°11160152. Extracción, cuantificación y envío de ADN de <i>Tristerix corymbosus<i>. 2018.
+  * Tesista proyecto FONDECYT N°11150213. Caracterización y    análisis de SNPs en <i>Basilichthys microlepidotus<i>. 2019.
+  * Asistente de investigación proyecto Enlace, Universidad de Chile. 2022 -
   
-Skills
+* Docencia
+  *   Tutor de Química en Universidad San Sebastián. 2019.
+  *   Coordinador Tutor en Programa de Tutorías de Bioquímica Universidad San Sebastián. 2019.
+  *   Tutor de Química en Programa de Tutorías de Química Universidad San Sebastián. 2020.
+  *   Co-coordinador, Ecología de Poblaciones, Facultad de Ciencias, Universidad de Chile. 2022.
+Habilidades
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Software
+  * Intermedio en software de Microsoft (Excel, etc.).
+  * Intermedio en R.
+* Lenguajes de programación
+  * Python.
+  * S (Lenguaje de R).
 
 Publications
 ======
@@ -48,12 +53,3 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
