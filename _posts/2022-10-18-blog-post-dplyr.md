@@ -173,7 +173,7 @@ popData %>%
 Obteniendo el siguiente dataframe.
 <img src="https://jorgecortes-m.github.io/images/filter_not.JPG" alt="Dataframe con funcion filter operador NOT">
 
-Incluso podríamos filtrar para obtener nuevamente los países bajo el rank 100 o aquellos que sean de América del sur con el operador OR representado por | .
+Incluso podríamos filtrar para obtener nuevamente los países bajo el rank 100 o aquellos que sean de América del sur con el operador OR representado por "|" .
 
 ```R
 popData %>%
@@ -182,3 +182,90 @@ popData %>%
 
 Que nos da un datframe similar al anterior pero que además contiene a todos los paises de américa del sur.
 <img src="https://jorgecortes-m.github.io/images/filter_not.JPG" alt="Dataframe con funcion filter operador NOT">
+
+## Arrange()
+
+La segunda y última función de esta categoría que revisaremos es arrange, la cual nos permite ordenar las filas con respecto a un valor. Por ejemplo ordenemos estos datos en función de la población en 2022. 
+
+```R
+popData %>%
+  arrange(`2022 Population`)
+```
+<img src="https://jorgecortes-m.github.io/images/arrange_1asc.JPG" alt="Dataframe con arrange simple">
+
+Como vemos lo ordena de menor a mayor, esto lo podemos cambiar a forma descendente usando la función desc. 
+
+```R
+popData %>%
+  arrange(desc(`2022 Population`))
+```
+<img src="https://jorgecortes-m.github.io/images/arrange_2desc.JPG" alt="Dataframe con arrange desc">
+
+Y así podríamos ordenar este data frame en función de cualquier variable, incluso de aquellas que podamos crear con mutate, calculemos nuevamente la diferencia entre la población de 2022 y 2020 y ordenemos en relación a ese calculo. 
+
+```R
+popData %>%
+  mutate(dif_2020_2022 = `2022 Population`- `2020 Population`)%>%
+  arrange(desc(dif_2020_2022))
+```
+<img src="https://jorgecortes-m.github.io/images/arrange_3mutate.JPG" alt="Dataframe usando mutate">
+
+Como vemos India ahora esta en primer lugar seguido de Nigeria y China ya no esta en los 10 primeros lugares.
+
+## Funciones para organizar información
+
+Por ultimo revisaremos en conjunto una función para agrupar group_by y por otro lado dos funciones para resumir información, count y summarise.
+
+## Group_by() y Summarise()
+
+Group_by por su parte nos permite agrupar filas con respecto a los valores de una columna en particular, por ejemplo agrupemos este data set en función de los continentes.
+
+```R
+popData %>%
+  group_by(Continent)
+```
+
+<img src="https://jorgecortes-m.github.io/images/group_by_solo.JPG" alt="Dataframe usando sólo group_by">
+
+En principio no vemos mucho cambio, pero si acoplamos esta función con summarise, la cual nos permite resumir información y creamos una columna que nos indique el total de elementos de cada grupo creado, vemos como group_by puede ser una gran función para ayudarnos a resumir información, ya que cambia como el data set interactúa con otras funciones de dplyr.
+
+```R
+popData %>%
+  group_by(Continent) %>%
+  summarise(CountperContin = length(Continent))
+```
+<img src="https://jorgecortes-m.github.io/images/group_by_summarise.JPG" alt="Dataframe usando group_by y summarise">
+
+Otra cosa que podemos hacer es crear una nueva variable con mutate y luego agrupar en torno a esa variable y obtener algún resumen de la información. Acá clasificaremos los paises otorgandoles un 1 cuando su tasa de crecimiento sea mayor o igual a 1 y un 0 cuando sea menor a 1, luego agruparemos por esta variable y contaremos cuantos paises hay en cada clase.
+
+```R
+popData %>%
+  mutate(class_gr = ifelse(`Growth Rate`>=1, 1, 0))%>%
+  group_by(class_gr) %>%
+  summarise(n = length(class_gr))
+```
+
+<img src="https://jorgecortes-m.github.io/images/group_by_mutate.JPG" alt="Dataframe usando group_by y mutate">
+
+## Count()
+
+Por último el primer ejercicio que realizamos en esta sección, podríamos haberlo hecho con count() de esta forma, mucho más directo, count nos sirve para contar los casos de una variable o columna de interés.
+
+```R
+popData %>%
+  count(Continent)
+```
+<img src="https://jorgecortes-m.github.io/images/count_1.JPG" alt="Dataframe usando count">
+
+ Incluso, aunque no muy usado, podemos evaluar alguna condición dentro de count, por ejemplo evaluemos la condición de paises donde la población de 2022 es es mayor que 100000.
+
+ ```R
+popData %>%
+  count(`2022 Population` > 100000)
+```
+
+<img src="https://jorgecortes-m.github.io/images/count_2.JPG" alt="Dataframe usando count para condicional">
+
+Vemos como nos entrega un resultado tanto para cuando es verdadero como para cuando esta condición es falsa.
+
+Con esto hemos revisado algunas de las principales funciones de dplyr lo que te permitiría seguir explorando este increíble paquete. Es posible hacer mucho más, pero sin duda estas funciones te ayudarán a dar tus primeros pasos.
