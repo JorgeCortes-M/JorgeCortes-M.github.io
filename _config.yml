@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Jorge Cortés-Miranda"
 title_separator          : "-"
 name                     : &name "Jorge Cortés-Miranda"
-description              : &description "Científico con base biológica"
+description              : &description "Científico con base biológica aprendiendo de las ciencias computacionales"
 url                      : https://JorgeCortes-M.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "JorgeCortes-M/JorgeCortes-M.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Jorge Cortés-Miranda"
   avatar           : "profile_photo.jpg"
-  bio              : "Biotechnologist with soul of ecologist surfing in the world of code"
+  bio              : "Científico con base biológica aprendiendo de las ciencias computacionales"
   location         : "Santiago, Chile"
   employer         :
   pubmed           : "https://pubmed.ncbi.nlm.nih.gov/?term=jorge+cortes+miranda"
