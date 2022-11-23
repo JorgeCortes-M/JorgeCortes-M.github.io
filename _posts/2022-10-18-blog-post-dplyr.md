@@ -173,7 +173,7 @@ popData %>%
 Obteniendo el siguiente dataframe.
 <img src="https://jorgecortes-m.github.io/images/filter_not.JPG" alt="Dataframe con funcion filter operador NOT">
 
-Incluso podríamos filtrar para obtener nuevamente los países bajo el rank 100 o aquellos que sean de América del sur con el operador OR representado por "|" .
+Incluso podríamos filtrar para obtener nuevamente los países bajo el rank 100 o aquellos que sean de América del sur con el operador OR.
 
 ```R
 popData %>%
