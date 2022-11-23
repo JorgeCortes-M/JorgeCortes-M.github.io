@@ -14,4 +14,4 @@ Soy Jorge, un estudiante de Doctorado en la Universidad de Chile, Santiago, Chil
 
 # Mi investigación
 ------
-En este momento he estado enfocado en investigar procesos microevolutivos que las poblaciones naturales experimentan relacionado con la exposición crónica a la contaminación. En mi proyecto de doctorado estoy empleando diversas metodologías ómicas para dar cuenta de estos fenómenos. En particular espeero develar cambios a nivel epigenético que diferencian a las poblaciones sometidas a estos escenarios y como podrían, eventualmente, interactuar con procesos microevolutivos.
+En este momento he estado enfocado en investigar procesos microevolutivos que las poblaciones naturales experimentan relacionado con la exposición crónica a la contaminación. En mi proyecto de doctorado estoy empleando diversas metodologías ómicas para dar cuenta de estos fenómenos. En particular espero develar cambios a nivel epigenético que diferencian a las poblaciones sometidas a estos escenarios y cómo podrían, eventualmente, interactuar con procesos microevolutivos.
