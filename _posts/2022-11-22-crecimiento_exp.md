@@ -39,7 +39,8 @@ Donde podemos apreciar el cambio infinitesimal o muy pequeño del tamaño de la 
 
 Si nos centramos en las tasas de natalidad y mortalidad, vemos que ambas dependen del número de individuos de la población, por ejemplo, mientras más individuos tenga la población mayor cantidad de individuos nacerán, lo mismo ocurre con la mortalidad, por lo que podemos definir $B$ y $D$ cada una con una tasa de natalidad y mortalidad percápita:
 
-$$B = bN0$$ 
+$$B = bN0$$
+y
 $$D = dN0$$
 
 Esto dejaría nuestra ecuación de la siguiente forma:
