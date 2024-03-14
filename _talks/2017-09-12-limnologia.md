@@ -1,7 +1,7 @@
 ---
 title: "Diferenciación Poblacional y diversidad genética de una población de Basilichthys microlepidotus habitando un cuerpo de agua artificial en la cuenca del Maipo"
 collection: talks
-type: "Talk"
+type: "Congreso"
 permalink: /talks/2017-09-12-limnologia
 venue: "Sociedad Chilena de Limnología"
 date: 2017-09-12

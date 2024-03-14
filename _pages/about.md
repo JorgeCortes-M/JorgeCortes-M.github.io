@@ -10,7 +10,7 @@ redirect_from:
 
 # Sobre mi
 ------
-Soy Jorge, un estudiante de Doctorado en la Universidad de Chile, Santiago, Chile en el [Departamento de Ciencias Ecológicas](http://ciencias.uchile.cl/departamentos/ciencias-ecologicas/presentacion.html). Me gradué como biotecnólogo pero mi foco de investigación ha estado más relacionado con procesos microevolutivos en ambientes contaminados. Me encanta enseñar y la comunicación científica, recientemente he estado explorando esas areas y la creación de este sitio va de la mano con aquello. Ultimamente he estado aprendiendo fuertemente sobre análisis de datos y otras ramas de la ciencia de la computación, las cuales pretendo mezclar con todo mi conocimiento base en este sitio.
+Soy Jorge, candidato a Doctor en la Universidad de Chile, Santiago, Chile en el [Departamento de Ciencias Ecológicas](http://ciencias.uchile.cl/departamentos/ciencias-ecologicas/presentacion.html). Me gradué como biotecnólogo pero mi foco de investigación ha estado más relacionado con procesos microevolutivos en ambientes contaminados. Me encanta enseñar y la comunicación científica, recientemente he estado explorando esas areas y la creación de este sitio va de la mano con aquello. Ultimamente he estado aprendiendo fuertemente sobre análisis de datos y otras ramas de la ciencia de la computación, las cuales pretendo mezclar con todo mi conocimiento base en este sitio.
 
 # Mi investigación
 ------
