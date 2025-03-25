@@ -32,6 +32,8 @@ Experiencia Laboral
   *   Coordinador Tutor en Programa de Tutorías de Bioquímica Universidad San Sebastián. 2019.
   *   Tutor de Química en Programa de Tutorías de Química Universidad San Sebastián. 2020.
   *   Co-coordinador, Ecología de Poblaciones, Facultad de Ciencias, Universidad de Chile. 2022.
+  *   Co-coordinador, Ecología de Poblaciones, Facultad de Ciencias, Universidad de Chile. 2023.
+  *   Profesor de Ecología, Facultad de Educación, Universidad Alberto Hurtado. 2025.
 Habilidades
 ======
 * Software

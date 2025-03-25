@@ -1,0 +1,15 @@
+---
+title: "Chemical-defensome and whole-transcriptome expression of the silverside fish Basilichthys microlepidotus in response to chronic pollution in the Maipo River basin, Central Chile"
+collection: publications
+permalink: /publications/2024Cortes-Miranda-chemical-def
+excerpt: 'Chemical defensome and whole-transcriptome'
+date: 2024-11-09
+venue: 'Aquatic Toxicology'
+paperurl: 'https://doi.org/10.1016/j.aquatox.2024.107159'
+citation: 'Cortés-Miranda, J., Veliz, D., Rojas-Hernández, N., Rico, C., Gutiérrez, C., & Vega-Retter, C. (2024). Chemical-defensome and whole-transcriptome expression of the silverside fish <i>Basilichthys microlepidotus<i> in response to chronic pollution in the Maipo River basin, Central Chile. <i>Aquatic Toxicology<i>, 277, 107159.'
+---
+Pollution is a major global concern affecting biodiversity, particularly of freshwater species. Populations have developed mechanisms to deal with pollution, such as the chemical defensome, which is a set of genes involved in maintaining internal stability. Pollution significantly affects the Maipo River basin in Chile. This area is home to the endemic silverside fish <i>Basilichthys microlepidotus<i>, whose populations are affected by pollution to different degrees. We assessed gene expression in the liver and gill of this species, focusing on whole-transcriptome and chemical-defensome levels, to identify both independent and shared mechanisms in response to pollution. The results showed that 14–18 genes were consistently expressed differently among populations in polluted areas. These genes were primarily involved in liver cell mitosis and in responses to organic chemicals and carcinogenic processes. Genes expressed differently in the gill were more abundant in immune system biological processes. All populations consistently downregulated chemical-defensome genes in the liver. In differentially expressed chemical-defensome genes, shared biological processes included virus response, cellular redox homeostasis and transport, organic cyclic compound response and DNA-templated transcription regulation. Studying chemical-defensome genes can help reveal common ways that pollution builds up over time, and examining the whole transcriptome can elucidate the context in which this response develops.
+
+[Download paper here](https://www.researchgate.net/publication/385685651_Chemical-defensome_and_whole-transcriptome_expression_of_the_silverside_fish_Basilichthys_microlepidotus_in_response_to_chronic_pollution_in_the_Maipo_River_basin_Central_Chile)
+
+Recommended citation: Cortés-Miranda, J., Veliz, D., Rojas-Hernández, N., Rico, C., Gutiérrez, C., & Vega-Retter, C. (2024). Chemical-defensome and whole-transcriptome expression of the silverside fish <i>Basilichthys microlepidotus<i> in response to chronic pollution in the Maipo River basin, Central Chile. Aquatic Toxicology, 277, 107159.
