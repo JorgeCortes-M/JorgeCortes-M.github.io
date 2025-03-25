@@ -3,7 +3,7 @@ title: "Copy number variations in response to chronic pollution: Basilichthys mi
 collection: publications
 permalink: /publications/2025Cortes-Miranda-copy-number
 excerpt: 'Copy number variation in fish related to chronic pollution'
-date: 2024-11-09
+date: 2025-03-24
 venue: 'Neotropical Ichthyology'
 paperurl: 'https://doi.org/10.1590/1982-0224-2024-0083'
 citation: 'Cortés-Miranda J, Veliz D, Rico C, Vega-Retter C. Copy number variations in response to chronic pollution: <i>Basilichthys microlepidotus<i> in central Chile. Neotrop Ichthyol. 2025; 23(1):e240083.'
