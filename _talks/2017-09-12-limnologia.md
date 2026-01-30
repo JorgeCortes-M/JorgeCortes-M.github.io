@@ -1,7 +1,7 @@
 ---
 title: "Population differentiation and genetic diversity of a population of Basilichthys microlepidotus inhabiting an artificial water body in the Maipo basin"
 collection: talks
-type: "Talk"
+type: "Congreso"
 permalink: /talks/2017-09-12-limnologia
 venue: "Chilean Limnology Society"
 date: 2017-09-12
