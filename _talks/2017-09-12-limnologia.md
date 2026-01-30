@@ -1,15 +1,15 @@
 ---
-title: "Diferenciación Poblacional y diversidad genética de una población de Basilichthys microlepidotus habitando un cuerpo de agua artificial en la cuenca del Maipo"
+title: "Population differentiation and genetic diversity of a population of Basilichthys microlepidotus inhabiting an artificial water body in the Maipo basin"
 collection: talks
 type: "Talk"
 permalink: /talks/2017-09-12-limnologia
-venue: "Sociedad Chilena de Limnología"
+venue: "Chilean Limnology Society"
 date: 2017-09-12
 location: "Puerto Montt, Chile"
 ---
-Las actividades humanas, en especial desde la revolución industrial, han provocado grandes alteraciones al medioambiente, produciendo diversos efectos sobre las poblaciones naturales. Por ejemplo, cambios y fragmentación de los flujos de agua dulce, lo cual a su vez produce cambios en la diversidad genética de las poblaciones, observándose en muchos casos una disminución de esta, lo que aumenta la probabilidad de extinción de la población en el corto plazo y en el largo plazo disminuye su capacidad de adaptación evolutiva. En Chile una de las cuencas más intervenidas por el ser humano, es la cuenca del río Maipo. Estudios previos realizados en la cuenca, determinaron la estructuración poblacional del pejerrey endémico de Chile <i>Basilichthys microlepidotus</i>. Recientemente se detectó un nuevo grupo de pejerreyes en la Laguna Esmeralda, Melipilla (33°38´50”S, 71°16´0”O), cuerpo de agua que fue creado artificialmente en 1992 como acción indirecta de la construcción de la Autopista del Sol. El objetivo de este trabajo fue caracterizar el nuevo grupo de pejerreyes hallado en la Laguna Esmeralda, determinando su diversidad genética, riqueza alélica y número de alelos y si constituyen o no una nueva población con respecto a las ya caracterizadas anteriormente. Para esto se usaron 8 marcadores microsatélites, los cuales mostraron que el grupo habitando la Laguna Esmeralda corresponde a una población independiente y que presenta el menor o uno de los menores valores de diversidad genética, riqueza alélica y número de alelos en comparación con las otras cinco poblaciones de la cuenca. Estos resultados sugieren un posible efecto fundador en la población de pejerreyes habitando la Laguna Esmeralda.
+Human activities, especially since the industrial revolution, have caused major alterations to the environment, producing diverse effects on natural populations. For example, changes and fragmentation of freshwater flows, which in turn produces changes in the genetic diversity of populations, observing in many cases a decrease in this, which increases the probability of extinction of the population in the short term and in the long term decreases its capacity for evolutionary adaptation. In Chile, one of the basins most intervened by humans is the Maipo River basin. Previous studies carried out in the basin determined the population structuring of the silverside endemic to Chile <i>Basilichthys microlepidotus</i>. Recently a new group of silversides was detected in the Laguna Esmeralda, Melipilla (33°38´50”S, 71°16´0”W), a body of water that was created artificially in 1992 as an indirect action of the construction of the Autopista del Sol. The objective of this work was to characterize the new group of silversides found in the Laguna Esmeralda, determining its genetic diversity, allelic richness and number of alleles and if they constitute or not a new population with respect to those already characterized previously. For this, 8 microsatellite markers were used, which showed that the group inhabiting the Laguna Esmeralda corresponds to an independent population and that it presents the lowest or one of the lowest values of genetic diversity, allelic richness and number of alleles compared to the other five populations of the basin. These results suggest a possible founder effect in the population of silversides inhabiting the Laguna Esmeralda.
 
 JORGE CORTÉS-MIRANDA, DAVID VELIZ, MICHEL SALLABERRY, CAREN VEGA-RETTER
 
-Agradecimientos: FONDECYT 11150213
-Patrocinio: Profesora Irma Vila
+Acknowledgments: FONDECYT 11150213
+Sponsorship: Professor Irma Vila

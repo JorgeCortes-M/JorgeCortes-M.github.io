@@ -1,77 +1,77 @@
 ---
-title: 'Modelo de crecimiento exponencial en ecología'
+title: 'Exponential growth model in ecology'
 date: 2022-11-22
 permalink: /posts/2022/11/exp-growth/
 code-block-font-size: \large
 tags:
-  - exponencial
-  - modelos
-  - ecología
-  - poblaciones
+  - exponential
+  - models
+  - ecology
+  - populations
 ---
 
-# Contar organismos puede ser complejo
+# Counting organisms can be complex
 
-Muchas veces el problema de contar organismos en una población puede ser de gran dificultad, en el caso de organismos que podemos identificar como unitarios puede resultar de una menor dificultad, pero en los organismos modulares, como corales, árboles u otros este problema puede ser de gran relevancia.
-También al momento de contar organismos y querer proyectar la población hacia el futuro, podemos encontrarnos con el problema de que no todos los organismos son de una misma categoría, pudieran existir organismos que nunca llegarán a reproducirse u organismos que ya han pasado su etapa reproductiva.
-Sin embargo, a pesar de todos estos puntos a tomar en consideración se han podido generar modelos que buscan describir la dinámica de las poblaciones. En este ejemplo hablaremos del modelo de crecimiento exponencial, un modelo independiente de la densidad de la población o denso-independiente. Para ilustrarlo pensaremos en paramecios. 
+Many times the problem of counting organisms in a population can be of great difficulty, in the case of organisms that we can identify as unitary it can result in less difficulty, but in modular organisms, such as corals, trees or others this problem can be of great relevance.
+Also at the moment of counting organisms and wanting to project the population into the future, we can find the problem that not all organisms are of the same category, there could be organisms that will never reach reproduction or organisms that have already passed their reproductive stage.
+However, despite all these points to take into consideration, models have been generated that seek to describe the dynamics of populations. In this example we will talk about the exponential growth model, a model independent of population density or density-independent. To illustrate it we will think of paramecia. 
 
-# Un modelo inicial
+# An initial model
 
-Teniendo en cuenta nuestra población de paramecios esta podría crecer debido a que estos se reproduzcan o a que lleguen paramecios de otra población, es decir de una tasa de natalidad ($B$) y de inmigración ($I$). Por otro lado, disminuiría nuestro número de paramecios si algunos de estos mueren o si emigran a otra población, lo que podríamos considerar una tasa de mortalidad ($D$) y una tasa de emigración ($E$), por lo que el número de individuos en un tiempo futuro, que podemos denotar como $t+1$, de una población estaría dado por lo siguiente:
+Taking into account our population of paramecia this could grow due to them reproducing or because paramecia arrive from another population, that is to say from a birth rate ($B$) and immigration ($I$). On the other hand, our number of paramecia would decrease if some of these die or if they emigrate to another population, which we could consider a mortality rate ($D$) and an emigration rate ($E$), so the number of individuals in a future time, which we can denote as $t+1$, of a population would be given by the following:
 
 $$N_{t+1} = N0 + B – D + I – E$$
 
-Es decir, del número inicial de organismos, cuantos nacen, cuantos mueren, cuentos inmigran y emigran. Para obtener el número de individuos en el que cambia la población entre un tiempo y otro, podemos escribir lo siguiente:
+That is to say, from the initial number of organisms, how many are born, how many die, how many immigrate and emigrate. To obtain the number of individuals in which the population changes between one time and another, we can write the following:
 
 $$\Delta N = B – D + I – E$$
 
-Ahora supongamos que tenemos una población cerrada, es decir, no es posible emigrar de ella o que lleguen inmigrantes, por lo que nuestra ecuación queda reducida a:
+Now suppose we have a closed population, that is, it is not possible to emigrate from it or for immigrants to arrive, so our equation remains reduced to:
 
 $$\Delta N = B – D$$
 
-Es decir, el número de individuos sólo depende de cuantos nacen y mueren.
-Si consideramos que nuestra población de paramecios crece de forma continua, es decir que no lo hace en saltos temporales, podemos escribir la ecuación de forma diferencial:
+That is, the number of individuals only depends on how many are born and die.
+If we consider that our population of paramecia grows continuously, that is to say that it does not do so in time jumps, we can write the equation in differential form:
 
 $$ \frac{\delta N}{\delta t} = B - D$$
 
-Donde podemos apreciar el cambio infinitesimal o muy pequeño del tamaño de la población, en un tiempo infinitesimal o muy pequeño.
+Where we can appreciate the infinitesimal or very small change in population size, in an infinitesimal or very small time.
 
-Si nos centramos en las tasas de natalidad y mortalidad, vemos que ambas dependen del número de individuos de la población, por ejemplo, mientras más individuos tenga la población mayor cantidad de individuos nacerán, lo mismo ocurre con la mortalidad, por lo que podemos definir $B$ y $D$ cada una con una tasa de natalidad y mortalidad percápita:
+If we focus on the birth and mortality rates, we see that both depend on the number of individuals in the population, for example, the more individuals the population has, the greater number of individuals will be born, the same happens with mortality, so we can define $B$ and $D$ each with a per capita birth and mortality rate:
 
 $$B = bN0$$
-y
+and
 $$D = dN0$$
 
-Esto dejaría nuestra ecuación de la siguiente forma:
+This would leave our equation as follows:
 
 $$ \frac{\delta N}{\delta t} = (b-d)*N0$$
 
-Finalmente, al factor $b – d$ podemos llamarlo $r$ o tasa de crecimiento poblacional instantánea.
+Finally, we can call the factor $b – d$ $r$ or instantaneous population growth rate.
 
 $$ \frac{\delta N}{\delta t} = r*N0$$
 
-Esta sería nuestra primera ecuación que nos indica un crecimiento exponencial de la población. Podemos notar que a valores de r superiores a 0 la población crece en el tiempo, a valores menores decrece y a valor igual a 0 se mantiene su tamaño.
+This would be our first equation that indicates an exponential growth of the population. We can notice that at values of r greater than 0 the population grows over time, at values lower it decreases and at value equal to 0 its size is maintained.
 
-Para obtener una ecuación que nos permita proyectar la población hacia el futuro podemos integrar la ecuación anterior siguiendo las reglas del cálculo, lo que nos daría como resultado lo siguiente:
+To obtain an equation that allows us to project the population into the future we can integrate the previous equation following the rules of calculus, which would give us as a result the following:
 
 $$N_{t} = N0e^{rt}$$
 
-Esta ecuación nos permite proyectar a un tiempo futuro nuestra población de paramecios teniendo en cuenta cuantos paramecios hay en este momento y su tasa de crecimiento instantánea.
+This equation allows us to project to a future time our population of paramecia taking into account how many paramecia there are at this moment and their instantaneous growth rate.
 
-# Elementos importantes a considerar
-Como ya hemos mencionado anteriormente el tamaño inicial de la población como la tasa de crecimiento determinan el número de individuos en el futuro cambiando estos parámetros podemos tener distintos tipos de curvas. Pero imagina un valor de $r$ ligeramente superior a 0 para nuestros paramecios, algo como 0.1 y proyectamos el tiempo en días e iniciando sólo con 10 paramecios. En 1 día tendríamos un nuevo paramecio, en 2 días tendríamos 2 nuevos paramecios, en 3 días, 3 nuevos y así hasta llegar al sexto día con 8 paramecios nuevos y un total de 18 ¿Bastante lento no? Si seguimos proyectando el tamaño poblacional en un mes de 30 días tendríamos 200 paramecios, pero en 100 días tendríamos más de 220 mil paramecios. Imagina que estos sólo se originaron de 10 paramecios iniciales, por lo que si una población de una especie creciera así rápidamente poblaría todo el mundo, algo que en la naturaleza no ocurre. Este modelo sin embargo tiene la gracia de indicarnos el potencial que podría tener una población de una especie de no haber restricciones en cuanto a recursos. Además, sólo lo podemos aplicar cuando se cumplen ciertos supuestos.
+# Important elements to consider
+As we have mentioned previously the initial size of the population as well as the growth rate determine the number of individuals in the future changing these parameters we can have different types of curves. But imagine a value of $r$ slightly higher than 0 for our paramecia, something like 0.1 and we project the time in days and starting only with 10 paramecia. In 1 day we would have a new paramecium, in 2 days we would have 2 new paramecia, in 3 days, 3 new ones and so on until reaching the sixth day with 8 new paramecia and a total of 18. Quite slow right? If we continue projecting the population size in a month of 30 days we would have 200 paramecia, but in 100 days we would have more than 220 thousand paramecia. Imagine that these only originated from 10 initial paramecia, so if a population of a species grew this quickly it would populate the entire world, something that in nature does not occur. This model however has the grace of indicating to us the potential that a population of a species could have if there were no restrictions regarding resources. In addition, we can only apply it when certain assumptions are met.
 
 <img src="https://jorgecortes-m.github.io/images/exp_gro_cont.jpeg" alt="Grafico de crecimiento exponencial continuo">
 
-1.- No hay inmigración o emigración <br>
-2.- $b$ y $d$ son parámetros constantes, es decir no cambia la natalidad ni mortalidad. <br>
-3.- No hay estructura genética, es decir todos los organismos tienen el mismo potencial reproductivo y la misma tasa de mortalidad asociada. <br>
-4.- No hay estructura etaria o por tamaño, todos los organismos desde que nacen tienen la misma capacidad reproductiva y tasa de mortalidad asociada. <br>
+1.- There is no immigration or emigration <br>
+2.- $b$ and $d$ are constant parameters, that is to say birth and mortality do not change. <br>
+3.- There is no genetic structure, that is to say all organisms have the same reproductive potential and the same associated mortality rate. <br>
+4.- There is no age or size structure, all organisms from birth have the same reproductive capacity and associated mortality rate. <br>
 
-A pesar de lo alejado a la realidad que puede ser este modelo, suele ser una pieza clave de la que nacen preguntas como ¿Por qué los organismos no crecen de esta forma? ¿Cuáles son las condiciones para que una población pueda crecer exponencialmente? Preguntas relevantes incluso en ambitos relacionados con la biología evolutiva.
-Aunque quizás lo hayas leído en algún sitio, la población humana no crece exponencialmente, puede que en algún intervalo de tiempo haya sido así, pero los datos actuales apuntan a que no sigue esa tendencia, relacionado con la disminución de la tasa de crecimiento en las últimas décadas. Para más información pueden revisar [ourworldindata.org](https://ourworldindata.org/world-population-growth).
+Despite how far from reality this model can be, it is usually a key piece from which questions arise such as Why do organisms not grow in this way? What are the conditions for a population to be able to grow exponentially? Relevant questions even in areas related to evolutionary biology.
+Although you may have read it somewhere, the human population does not grow exponentially, it may be that in some time interval it has been like that, but current data points out that it does not follow that trend, related to the decrease in the growth rate in the last decades. For more information you can check [ourworldindata.org](https://ourworldindata.org/world-population-growth).
 
-Si quieres adentrarte mucho más en este tema te recomiendo el libro “a primer for ecology” de Nicholas Gotelli donde se trabaja en detalle este tipo de modelos.
+If you want to delve much more into this topic I recommend the book “a primer for ecology” by Nicholas Gotelli where this type of models is worked in detail.
 
-Si esta es la primera vez que te enfrentas a un modelo de esta índole, te dejo las siguientes preguntas ¿Qué crees que debería agregarse a este modelo? ¿Qué cosas no considera que podrían ser importantes? 
+If this is the first time you face a model of this nature, I leave you the following questions What do you think should be added to this model? What things does it not consider that could be important? 

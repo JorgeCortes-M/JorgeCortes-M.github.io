@@ -1,7 +1,7 @@
-# About
+# About me
 
-I am Jorge, a Phd. student at the Universidad de Chile, Santiago, Chile in the [Ecological Sciences Department](http://ciencias.uchile.cl/departamentos/ciencias-ecologicas/presentacion.html). I'm a biotechnologist but my research is focus on microevolution in polluted environtments. I love teach and scientific communication, I'm recently exploring those areas, and the creation of this site is related with them. Also, lately I'm learning deeply about web develop and other computer sciences and I'm trying to merge all this differents pations in this site.
+I am Jorge, a PhD student at the University of Chile, Santiago, Chile, in the [Department of Ecological Sciences](http://ciencias.uchile.cl/departamentos/ciencias-ecologicas/presentacion.html). I graduated as a biotechnologist, but my research focus has been more related to microevolutionary processes in polluted environments. I love teaching and scientific communication; I have recently been exploring these areas, and the creation of this site goes hand in hand with that. Lately, I have been learning heavily about data analysis and other branches of computer science, which I intend to merge with all my base knowledge on this site.
 
 # My research
 
-I'm focus on microevolutionary process that populations experience related to chronic pollution exposure. For this purpose I'm currently using different approaches based on omics. In the past I've learned about population genetics and his applications to this problems, now I'm learning about epigenetics and his impact on microevolutionary process on genes groups.
+At this moment, I have been focused on investigating microevolutionary processes that natural populations experience related to chronic exposure to pollution. In my doctoral project, I am using various methodologies to account for these phenomena. In particular, I hope to unveil genetic and epigenetic changes that differentiate populations subjected to these scenarios and how they could, eventually, interact with microevolutionary processes.
