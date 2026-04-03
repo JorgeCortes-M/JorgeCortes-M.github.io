@@ -1,6 +1,6 @@
 # About me
 
-I am Jorge, a PhD student at the University of Chile, Santiago, Chile, in the [Department of Ecological Sciences](http://ciencias.uchile.cl/departamentos/ciencias-ecologicas/presentacion.html). I graduated as a biotechnologist, but my research focus has been more related to microevolutionary processes in polluted environments. I love teaching and scientific communication; I have recently been exploring these areas, and the creation of this site goes hand in hand with that. Lately, I have been learning heavily about data analysis and other branches of computer science, which I intend to merge with all my base knowledge on this site.
+I am Jorge, a postdoctoral researcher at the University of Chile, Santiago, Chile, in the [Department of Ecological Sciences](http://ciencias.uchile.cl/departamentos/ciencias-ecologicas/presentacion.html). I graduated as a biotechnologist, but my research focus has been more related to microevolutionary processes in polluted environments. I love teaching and scientific communication; I have recently been exploring these areas, and the creation of this site goes hand in hand with that. Lately, I have been learning heavily about data analysis and other branches of computer science, which I intend to merge with all my base knowledge on this site.
 
 # My research
 

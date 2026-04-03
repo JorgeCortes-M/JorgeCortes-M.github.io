@@ -48,14 +48,14 @@ Now yes, let's go to the Dplyr functions, we will start with select(), this allo
 popData %>%
   select(Continent)
 ```
-This generates a dataframe of a single column with the continents. <img src="https://jorgecortes-m.github.io/images/select_continent_blog_1.JPG" alt="Data frame ends_with">
+This generates a dataframe of a single column with the continents. <img src="https://jorgecortes-m.github.io/images/select_continent_blog_1.JPG" loading="lazy" alt="Data frame ends_with">
 
 We can also select more than one column and rename the Growth Rate column. 
 ```R
 popData %>%
   select(Country, Continent, Growth_Rate = 'Growth Rate')
 ```
-Now we have a data frame with three columns. <img src="https://jorgecortes-m.github.io/images/select_mult_col_blog_1.JPG" alt="Data frame ends_with">
+Now we have a data frame with three columns. <img src="https://jorgecortes-m.github.io/images/select_mult_col_blog_1.JPG" loading="lazy" alt="Data frame ends_with">
 
 We can also rename a column by calling the rename function of dplyr, like this:
 
@@ -73,7 +73,7 @@ popData %>%
   select(ends_with("Population"))
 ```
 
-Thus checking the following dataframe <img src="https://jorgecortes-m.github.io/images/select_ends_with.JPG" alt="Data frame ends_with">
+Thus checking the following dataframe <img src="https://jorgecortes-m.github.io/images/select_ends_with.JPG" loading="lazy" alt="Data frame ends_with">
 
 ## Relocate()
 
@@ -88,7 +88,7 @@ popData %>%
 ```
 
 Obtaining the following dataframe.
-<img src="https://jorgecortes-m.github.io/images/relocate_after.JPG" alt="Data frame relocate after">
+<img src="https://jorgecortes-m.github.io/images/relocate_after.JPG" loading="lazy" alt="Data frame relocate after">
 
 We could leave it before the last column changing after for before. 
 
@@ -110,7 +110,7 @@ popData %>%
   relocate(Country, .after = Continent)
 ```
 Obtaining the same dataframe that we obtained in the previous example.
-<img src="https://jorgecortes-m.github.io/images/relocate_before.JPG" alt="Data frame relocate before">
+<img src="https://jorgecortes-m.github.io/images/relocate_before.JPG" loading="lazy" alt="Data frame relocate before">
 
 ## Mutate()
 
@@ -130,7 +130,7 @@ popData %>%
   select(Proy_2023, Dif_betw_22_20, log_2022) #Single line case
 ```
 Obtaining in both cases the following dataframe.
-<img src="https://jorgecortes-m.github.io/images/mutate.JPG" alt="Dataframe con funcion mutate">
+<img src="https://jorgecortes-m.github.io/images/mutate.JPG" loading="lazy" alt="Dataframe con funcion mutate">
 
 If you notice, the name of the column goes before the operation that defines it, we also combine what was obtained through mutate with the select() function to observe the new columns created.
 
@@ -147,7 +147,7 @@ popData %>%
   filter(Country == "Chile")
 ```
 We would obtain the following dataframe.
-<img src="https://jorgecortes-m.github.io/images/filter_unparam.JPG" alt="Dataframe con funcion filter y un parametro">
+<img src="https://jorgecortes-m.github.io/images/filter_unparam.JPG" loading="lazy" alt="Dataframe con funcion filter y un parametro">
 
 Before continuing it is important to mention that this function goes hand in hand with logical or boolean operators, which you can [see over here](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf).
 
@@ -162,7 +162,7 @@ popData %>%
 ```
 
 Obtaining the following dataframe.
-<img src="https://jorgecortes-m.github.io/images/filter_and.JPG" alt="Dataframe con funcion filter operador AND">
+<img src="https://jorgecortes-m.github.io/images/filter_and.JPG" loading="lazy" alt="Dataframe con funcion filter operador AND">
 
 We might want those countries that are under rank 100, but that are not from South America, for that we would use the NOT operator, represented by !=.
 
@@ -171,7 +171,7 @@ popData %>%
   filter(Rank < 100 & Continent != "South America")
 ```
 Obtaining the following dataframe.
-<img src="https://jorgecortes-m.github.io/images/filter_not.JPG" alt="Dataframe con funcion filter operador NOT">
+<img src="https://jorgecortes-m.github.io/images/filter_not.JPG" loading="lazy" alt="Dataframe con funcion filter operador NOT">
 
 We could even filter to obtain again the countries under rank 100 or those that are from South America with the OR operator.
 
@@ -181,7 +181,7 @@ popData %>%
 ```
 
 Which gives us a dataframe similar to the previous one but that also contains all the countries of South America.
-<img src="https://jorgecortes-m.github.io/images/filter_not.JPG" alt="Dataframe con funcion filter operador NOT">
+<img src="https://jorgecortes-m.github.io/images/filter_not.JPG" loading="lazy" alt="Dataframe con funcion filter operador NOT">
 
 ## Arrange()
 
@@ -191,7 +191,7 @@ The second and last function of this category that we will review is arrange, wh
 popData %>%
   arrange(`2022 Population`)
 ```
-<img src="https://jorgecortes-m.github.io/images/arrange_1asc.JPG" alt="Dataframe con arrange simple">
+<img src="https://jorgecortes-m.github.io/images/arrange_1asc.JPG" loading="lazy" alt="Dataframe con arrange simple">
 
 As we see it orders it from lowest to highest, we can change this to descending form using the desc function. 
 
@@ -199,7 +199,7 @@ As we see it orders it from lowest to highest, we can change this to descending 
 popData %>%
   arrange(desc(`2022 Population`))
 ```
-<img src="https://jorgecortes-m.github.io/images/arrange_2desc.JPG" alt="Dataframe con arrange desc">
+<img src="https://jorgecortes-m.github.io/images/arrange_2desc.JPG" loading="lazy" alt="Dataframe con arrange desc">
 
 And so we could order this data frame based on any variable, even those that we can create with mutate, let's calculate again the difference between the population of 2022 and 2020 and order in relation to that calculation. 
 
@@ -208,7 +208,7 @@ popData %>%
   mutate(dif_2020_2022 = `2022 Population`- `2020 Population`)%>%
   arrange(desc(dif_2020_2022))
 ```
-<img src="https://jorgecortes-m.github.io/images/arrange_3mutate.JPG" alt="Dataframe usando mutate">
+<img src="https://jorgecortes-m.github.io/images/arrange_3mutate.JPG" loading="lazy" alt="Dataframe usando mutate">
 
 As we see India is now in first place followed by Nigeria and China is no longer in the top 10 places.
 
@@ -225,7 +225,7 @@ popData %>%
   group_by(Continent)
 ```
 
-<img src="https://jorgecortes-m.github.io/images/group_by_solo.JPG" alt="Dataframe usando sólo group_by">
+<img src="https://jorgecortes-m.github.io/images/group_by_solo.JPG" loading="lazy" alt="Dataframe usando sólo group_by">
 
 In principle we don't see much change, but if we couple this function with summarise, which allows us to summarize information and create a column that tells us the total elements of each group created, we see how group_by can be a great function to help us summarize information, since it changes how the data set interacts with other dplyr functions.
 
@@ -234,7 +234,7 @@ popData %>%
   group_by(Continent) %>%
   summarise(CountperContin = length(Continent))
 ```
-<img src="https://jorgecortes-m.github.io/images/group_by_summarise.JPG" alt="Dataframe usando group_by y summarise">
+<img src="https://jorgecortes-m.github.io/images/group_by_summarise.JPG" loading="lazy" alt="Dataframe usando group_by y summarise">
 
 Another thing we can do is create a new variable with mutate and then group around that variable and obtain some summary of the information. Here we will classify the countries giving them a 1 when their growth rate is greater than or equal to 1 and a 0 when it is less than 1, then we will group by this variable and count how many countries there are in each class.
 
@@ -245,7 +245,7 @@ popData %>%
   summarise(n = length(class_gr))
 ```
 
-<img src="https://jorgecortes-m.github.io/images/group_by_mutate.JPG" alt="Dataframe usando group_by y mutate">
+<img src="https://jorgecortes-m.github.io/images/group_by_mutate.JPG" loading="lazy" alt="Dataframe usando group_by y mutate">
 
 ## Count()
 
@@ -255,7 +255,7 @@ Finally the first exercise we performed in this section, we could have done it w
 popData %>%
   count(Continent)
 ```
-<img src="https://jorgecortes-m.github.io/images/count_1.JPG" alt="Dataframe usando count">
+<img src="https://jorgecortes-m.github.io/images/count_1.JPG" loading="lazy" alt="Dataframe usando count">
 
  Even, although not very used, we can evaluate some condition inside count, for example let's evaluate the condition of countries where the 2022 population is greater than 100000.
 
@@ -264,7 +264,7 @@ popData %>%
   count(`2022 Population` > 100000)
 ```
 
-<img src="https://jorgecortes-m.github.io/images/count_2.JPG" alt="Dataframe usando count para condicional">
+<img src="https://jorgecortes-m.github.io/images/count_2.JPG" loading="lazy" alt="Dataframe usando count para condicional">
 
 We see how it gives us a result both for when it is true and for when this condition is false.
 

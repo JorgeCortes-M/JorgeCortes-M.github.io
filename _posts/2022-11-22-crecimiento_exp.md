@@ -62,7 +62,7 @@ This equation allows us to project to a future time our population of paramecia 
 # Important elements to consider
 As we have mentioned previously the initial size of the population as well as the growth rate determine the number of individuals in the future changing these parameters we can have different types of curves. But imagine a value of $r$ slightly higher than 0 for our paramecia, something like 0.1 and we project the time in days and starting only with 10 paramecia. In 1 day we would have a new paramecium, in 2 days we would have 2 new paramecia, in 3 days, 3 new ones and so on until reaching the sixth day with 8 new paramecia and a total of 18. Quite slow right? If we continue projecting the population size in a month of 30 days we would have 200 paramecia, but in 100 days we would have more than 220 thousand paramecia. Imagine that these only originated from 10 initial paramecia, so if a population of a species grew this quickly it would populate the entire world, something that in nature does not occur. This model however has the grace of indicating to us the potential that a population of a species could have if there were no restrictions regarding resources. In addition, we can only apply it when certain assumptions are met.
 
-<img src="https://jorgecortes-m.github.io/images/exp_gro_cont.jpeg" alt="Grafico de crecimiento exponencial continuo">
+<img src="https://jorgecortes-m.github.io/images/exp_gro_cont.jpeg" loading="lazy" alt="Grafico de crecimiento exponencial continuo">
 
 1.- There is no immigration or emigration <br>
 2.- $b$ and $d$ are constant parameters, that is to say birth and mortality do not change. <br>
